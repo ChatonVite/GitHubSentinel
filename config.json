@@ -1,7 +1,7 @@
 {
-    "github_token": "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",
+    "github_token": "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",
     "notification_settings": {
-        "email": "your_email@example.com",
+        "email": "edmond@shiau.tw",
         "slack_webhook_url": "your_slack_webhook_url"
     },
     "subscriptions_file": "subscriptions.json",
