@@ -4,3 +4,7 @@ gradio
 loguru
 schedule
 markdown2
+beautifulsoup4
+html2text
+tiktoken
+pdfplumber

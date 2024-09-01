@@ -3,7 +3,7 @@
 import os
 from datetime import date, timedelta
 from logger import LOG  # 导入日志模块，用于记录日志信息
-
+import json
 class ReportGenerator:
     def __init__(self, llm):
         self.llm = llm  # 初始化时接受一个LLM实例，用于后续生成报告
@@ -39,3 +39,15 @@ class ReportGenerator:
 
         return report, report_file_path
 
+    def generate_hackernews_report(self, markdown_file_path, llm_prompt):
+        with open(markdown_file_path, 'r') as file:
+            markdown_content = file.read()
+        
+        report = self.llm.generate_report_by_prompt(markdown_content, llm_prompt)
+        report_file_path = os.path.splitext(markdown_file_path)[0] + f"_report.md"
+        with open(report_file_path, 'w+') as report_file:
+            report_file.write(report)
+        
+        LOG.info(f"Hacker News報告已保存到 {report_file_path}")
+
+        return report, report_file_path

@@ -10,6 +10,7 @@ from report_generator import ReportGenerator  # 导入报告生成器类
 from llm import LLM  # 导入语言模型类，可能用于生成报告内容
 from subscription_manager import SubscriptionManager  # 导入订阅管理器类，管理GitHub仓库订阅
 from logger import LOG  # 导入日志记录器
+from hacker_news_client import HackerNewsClient
 
 
 def graceful_shutdown(signum, frame):
@@ -29,6 +30,15 @@ def github_job(subscription_manager, github_client, report_generator, notifier, 
         notifier.notify(repo, report)
     LOG.info(f"[定时任务执行完毕]")
 
+def hackernews_job(hackernews_client, report_generator, notifier):
+    LOG.info("[开始执行HackerNews定时任务]")
+    md_file_path = hackernews_client.export_hacker_news()
+        # 从Markdown文件自动生成进展简报
+    prompt = hackernews_client.system_prompt
+    LOG.debug(f"LLM Prompt: {prompt}")
+    report, report_file_path = report_generator.generate_hackernews_report(md_file_path, prompt)
+    notifier.notify(hackernews_client.url,report)
+    LOG.info(f"[HackerNews定时任务执行完毕]")
 
 def main():
     # 设置信号处理器
@@ -42,7 +52,10 @@ def main():
     subscription_manager = SubscriptionManager(config.subscriptions_file)  # 创建订阅管理器实例
 
     # 启动时立即执行（如不需要可注释）
-    github_job(subscription_manager, github_client, report_generator, notifier, config.freq_days)
+    # github_job(subscription_manager, github_client, report_generator, notifier, config.freq_days)
+
+    hackernews_client = HackerNewsClient()
+    hackernews_job(hackernews_client, report_generator, notifier)
 
     # 安排每天的定时任务
     schedule.every(config.freq_days).days.at(

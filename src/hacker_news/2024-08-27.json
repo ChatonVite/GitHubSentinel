@@ -1,0 +1,155 @@
+{
+    "title": "Hacker News Top Stories",
+    "stories": [
+        {
+            "index": 1,
+            "title": "Box64 and RISC-V in 2024: What It Takes to Run the Witcher 3 on RISC-V",
+            "link": "https://box86.org/2024/08/box64-and-risc-v-in-2024/"
+        },
+        {
+            "index": 2,
+            "title": "Firewalling Your Code",
+            "link": "https://lackofimagination.org/2024/08/firewalling-your-code/"
+        },
+        {
+            "index": 3,
+            "title": "How to run Valgrind on a CGI program in C",
+            "link": "https://boston.conman.org/2024/08/24.1"
+        },
+        {
+            "index": 4,
+            "title": "Vanilla Prime: A simpler, more sustainable way of web development",
+            "link": "https://github.com/morris/vanilla-prime"
+        },
+        {
+            "index": 5,
+            "title": "Ruby in Jupyter Notebook",
+            "link": "https://nbviewer.org/github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb"
+        },
+        {
+            "index": 6,
+            "title": "Parochialism in Time and Space (2021)",
+            "link": "https://wyclif.substack.com/p/parochialism-in-time-and-space"
+        },
+        {
+            "index": 7,
+            "title": "Dokku: My favorite personal serverless platform",
+            "link": "https://hamel.dev/blog/posts/dokku/"
+        },
+        {
+            "index": 8,
+            "title": "QuestDB (YC S20) Is Hiring a Core Database Engineer",
+            "link": "https://questdb.io/careers/core-database-engineer/"
+        },
+        {
+            "index": 9,
+            "title": "NSA releases 1982 Grace Hopper lecture",
+            "link": "https://www.nsa.gov/helpful-links/nsa-foia/declassification-transparency-initiatives/historical-releases/view/article/3880193/capt-grace-hopper-on-future-possibilities-data-hardware-software-and-people-1982/"
+        },
+        {
+            "index": 10,
+            "title": "Erasure Coding for Distributed Systems",
+            "link": "https://transactional.blog/blog/2024-erasure-coding"
+        },
+        {
+            "index": 11,
+            "title": "FreeBSD-rustdate, a reimplementation of FreeBSD-update",
+            "link": "https://rustdate.over-yonder.net/"
+        },
+        {
+            "index": 12,
+            "title": "Tinybox of tinygrad by George Hotz is finally entering production",
+            "link": "https://twitter.com/realgeorgehotz/status/1828197925874463166"
+        },
+        {
+            "index": 13,
+            "title": "Clojure Desktop UI Framework",
+            "link": "https://github.com/HumbleUI/HumbleUI"
+        },
+        {
+            "index": 14,
+            "title": "Clay (short for C Layout) is a high performance 2D UI layout library",
+            "link": "https://github.com/nicbarker/clay"
+        },
+        {
+            "index": 15,
+            "title": "Run System Commands in Ruby \u2013 When to use which methods to run shell commands",
+            "link": "https://kirillshevch.medium.com/9-ways-to-run-system-commands-in-ruby-d099223a0ec6"
+        },
+        {
+            "index": 16,
+            "title": "Notes on Buttondown.com",
+            "link": "https://jmduke.com/posts/microblog/buttondown-dot-com/"
+        },
+        {
+            "index": 17,
+            "title": "The possibilities for dark matter have just shrunk \u2013 by a lot",
+            "link": "https://www.sciencenews.org/article/dark-matter-wimps-lz"
+        },
+        {
+            "index": 18,
+            "title": "Qualcomm Oryon CPU Core Design",
+            "link": "https://chipsandcheese.com/2024/08/26/hot-chips-2024-qualcomms-oryon-core/"
+        },
+        {
+            "index": 19,
+            "title": "How do you make safe, cheap nuclear reactors? Bury them a mile deep",
+            "link": "https://newatlas.com/energy/underground-nuclear-reactors/"
+        },
+        {
+            "index": 20,
+            "title": "Sovereign Tech Fund to Invest \u20ac686k in FreeBSD Infrastructure Modernization",
+            "link": "https://freebsdfoundation.org/blog/sovereign-tech-fund-to-invest-e686400-in-freebsd-infrastructure-modernization/"
+        },
+        {
+            "index": 21,
+            "title": "Out of Your Head",
+            "link": "https://nautil.us/out-of-your-head-791745/"
+        },
+        {
+            "index": 22,
+            "title": "Fixing a bug in Google Chrome as a first-time contributor",
+            "link": "https://cprimozic.net/blog/fixing-a-bug-in-google-chrome/"
+        },
+        {
+            "index": 23,
+            "title": "Show HN: Remove-bg \u2013 open-source remove background using WebGPU",
+            "link": "https://bannerify.co/tools/remove-bg"
+        },
+        {
+            "index": 24,
+            "title": "Predicting the Future of Distributed Systems",
+            "link": "https://blog.colinbreck.com/predicting-the-future-of-distributed-systems/"
+        },
+        {
+            "index": 25,
+            "title": "RISC-V CPU arrives on a tablet starting at $149",
+            "link": "https://www.tomshardware.com/tablets/rsic-v-cpu-arrives-on-a-tablet-starting-at-dollar149-dc-roma-risc-v-pad-ii-features-an-octa-core-cpu-and-up-to-16gb-ram-and-128gb-emmc-storage"
+        },
+        {
+            "index": 26,
+            "title": "Deliberate Practice and Acquisition of Expert Performance: A General Overview",
+            "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1553-2712.2008.00227.x"
+        },
+        {
+            "index": 27,
+            "title": "We run migrations across 2,800 microservices",
+            "link": "https://monzo.com/blog/how-we-run-migrations-across-2800-microservices"
+        },
+        {
+            "index": 28,
+            "title": "2023 state of the climate Entering uncharted territory",
+            "link": "https://academic.oup.com/bioscience/article/73/12/841/7319571"
+        },
+        {
+            "index": 29,
+            "title": "Have Swiss scientists made a chocolate breakthrough?",
+            "link": "https://www.bbc.co.uk/news/articles/cn47zg3xgxxo"
+        },
+        {
+            "index": 30,
+            "title": "Vim Racer",
+            "link": "https://vim-racer.com/"
+        }
+    ]
+}
